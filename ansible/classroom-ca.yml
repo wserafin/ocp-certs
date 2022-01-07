@@ -5,11 +5,11 @@
     ca_cert_path: /etc/pki/tls/certs
     ca_private_path: /etc/pki/tls/private
     organization_name: Acme Inc.
-    organizational_unit_name: Training
+    organizational_unit_name: Sales
     locality_name: Toronto
     state_or_province_name: ON
     country_name: CA
-    ca_cert_name: classroom-ca
+    ca_cert_name: main-ca
     ca_comment: Certificate Authority
 
   tasks:
