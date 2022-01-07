@@ -5,14 +5,14 @@
     ca_cert_file: /etc/pki/tls/certs/classroom-ca.pem
     ca_private_key: /etc/pki/tls/private/classroom-ca-key.pem
     cert_path: /tmp/certs
-    organization_name: Red Hat, Inc.
-    organizational_unit_name: Training
-    locality_name: Raleigh
-    state_or_province_name: NC
-    country_name: US
+    organization_name: ACME, Inc.
+    organizational_unit_name: Sales
+    locality_name: Toronto
+    state_or_province_name: ON
+    country_name: CA
     # Replace with your wildcard_domain. This can be found with:
     # oc get ingresses.config.openshift.io/cluster -o jsonpath='{.spec.domain}'
-    wildcard_domain: apps.ocp4.example.com
+    wildcard_domain: apps.ocpdemo.com
     cert_name: custom
     combined_name: "{{ cert_name }}-combined"
     # The project (namespace) variable can be passed when running this playbook.
